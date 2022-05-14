@@ -1,0 +1,8 @@
+1. public存放静态文件，如index.html
+2. src存放所有源代码。assets存放除了html、css、js之外的所有源代码，如图片、SVG等
+3. components放组件
+4. router放路由
+5. store放store
+6. views放视图——一些重要的页面：如关于、首页
+7. tests放测试代码
+8. vue.config.js存放webpack配置
