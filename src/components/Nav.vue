@@ -24,8 +24,8 @@ export default {
 <style lang="scss" scoped>
 @import "~@/assets/style/helper.scss";
 nav {
+  @extend %outerShadow;
   display: flex;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
   flex-direction: row;
   font-size: 12px;
   > .item {
@@ -40,10 +40,8 @@ nav {
       height: 32px;
     }
   }
-  > .item.selected {
-    color: $color-highlight;
-    // color: rgb(51, 62, 185);
-    background: rgb(212, 236, 249);
+  > .item.selected{
+    color: $color-highlight;  // color: rgb(51, 62, 185);
   }
 }
 </style>
